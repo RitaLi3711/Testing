@@ -1,7 +1,7 @@
 # Cookie Website 
 
 This website provides a recipe for chocolate chip cookies. 
-*Home Page
+*Home Page*
 *Preperation
 /Ingredients(scaling feature)
 /Tools
