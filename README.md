@@ -1,9 +1,9 @@
-# Cookie Website 
+# Cookie Website (Assignment 1)
 
 This website provides a recipe for chocolate chip cookies. 
 - Home Page
-- Preperation
+- Preparation Page
     * Ingredients(scaling feature)
     * Tools
-* Instructions 
-* FAQs
+* Instructions Page
+* FAQs Page
