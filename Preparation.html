@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preparation - Cookie Website</title>
+  <link rel="stylesheet" href="Preparation.css">
+</head>
+
+<body>
+  <main class="page-container">
+    <header class="page-header">
+      <h1 class="page-title">🍪 Preparation 🍪</h1>
+    </header>
+
+    <div class="serving-selector">
+      <label for="cookie-count" class="selector-label">How many cookies?</label>
+      <div class="selector-controls">
+        <button class="selector-btn" id="decrease-btn">−</button>
+        <input type="number" id="cookie-count" class="selector-input" value="36" min="1" step="1"> <button
+          class="selector-btn" id="increase-btn">+</button>
+      </div>
+      <p class="selector-note">Base recipe makes 36 cookies</p>
+    </div>
+
+    <section class="content-section">
+      <h2 class="section-title">Ingredients</h2>
+      <ul class="ingredients-list" id="ingredients-list">
+        <!-- Ingredients will be populated by JavaScript -->
+      </ul>
+    </section>
+
+    <section class="content-section">
+      <h2 class="section-title">Equipment</h2>
+      <ul class="equipment-list">
+        <li class="list-item">
+          <input type="checkbox" class="item-checkbox" id="equipment1">
+          <label for="equipment1" class="item-label">measuring spoons</label>
+        </li>
+        <li class="list-item">
+          <input type="checkbox" class="item-checkbox" id="equipment2">
+          <label for="equipment2" class="item-label">measuring cups</label>
+        </li>
+        <li class="list-item">
+          <input type="checkbox" class="item-checkbox" id="equipment3">
+          <label for="equipment3" class="item-label">KitchenAid Mixer</label>
+        </li>
+        <li class="list-item">
+          <input type="checkbox" class="item-checkbox" id="equipment4">
+          <label for="equipment4" class="item-label">spatula</label>
+        </li>
+        <li class="list-item">
+          <input type="checkbox" class="item-checkbox" id="equipment5">
+          <label for="equipment5" class="item-label">baking sheet</label>
+        </li>
+        <li class="list-item">
+          <input type="checkbox" class="item-checkbox" id="equipment6">
+          <label for="equipment6" class="item-label">parchment paper</label>
+        </li>
+        <li class="list-item">
+          <input type="checkbox" class="item-checkbox" id="equipment7">
+          <label for="equipment7" class="item-label">cookie scoop</label>
+        </li>
+        <li class="list-item">
+          <input type="checkbox" class="item-checkbox" id="equipment8">
+          <label for="equipment8" class="item-label">silicone baking mat</label>
+        </li>
+        <li class="list-item">
+          <input type="checkbox" class="item-checkbox" id="equipment9">
+          <label for="equipment9" class="item-label">hand mixer</label>
+        </li>
+      </ul>
+    </section>
+
+    <nav class="main-navigation">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="HomePage.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="Instructions.html" class="nav-link">Instructions</a></li>
+        <li class="nav-item"><a href="FAQ.html" class="nav-link">FAQs</a></li>
+      </ul>
+    </nav>
+  </main>
+
+  <script src="Preparation.js"></script>
+</body>
+
+</html>
